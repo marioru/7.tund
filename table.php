@@ -33,7 +33,7 @@
 		<th>numbrimärk</th>
 		<th>user id</th>
 		<th>värv</th>
-		<th>X<</th>
+		<th>X</th>
 		<th>edit</th>
 	</tr>
 	
@@ -69,7 +69,7 @@
 			echo "<td><a href='?delete=".$array_of_cars[$i]->id."'>X</a></td>";
 			echo "<td><a href='?edit=".$array_of_cars[$i]->id."'>edit</a></td>";
 			echo"</tr>";
-		
+			}
 		
 		}
 		
